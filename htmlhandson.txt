@@ -1,0 +1,375 @@
+1)
+<!DOCTYPE html>
+<html>
+<body>
+<title>
+Login</title>
+<body>
+<h1>LOGIN</h2>
+<a href = "Addressbook.html"><button type="button">Login</button></a>
+</body>
+</head>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>“Your details are submitted. Thank You!”</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<form>
+<label for="book">Address Book Details</label><br><br>
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="Name"><br>
+<label for="addresss">Address:</label><br>
+<textarea id="address" name="Address" rows="4" cols="50"> </textarea><br>  
+<label for="city">City:</label><br>
+<input type="text" id="city" city="City"><br>
+  <label for="postalcode">Postal code:</label><br>
+  <select name="postalcode" id="postalcode">
+  <option value="629001">629001</option>
+  <option value="629002">629002</option>
+  <option value="629003">629003</option>
+  <option value="629004">629004</option>
+  </select><br>
+<label for="mode">Transpotation Mode:</label><br>
+<input type="radio" id="cycle" name="Trasportation Mode" value="cycle">
+<label for="car">Cycle</label><br>
+<input type="radio" id="car" name="Trasportation Mode" value="car">
+<label for="car">Car</label><br>
+<input type="radio" id="bus" name="Trasportation Mode" value="bus">
+<label for="bus">Bus</label><br>
+<input type="radio" id="other" name="gender" value="Other">
+<label for="other">Other</label><br>
+<label for="skillsets">Skillsets:</label><br>
+<input type="checkbox" name="Skillsets" value="Java" Java <br>
+<input type="checkbox" name="Skillsets" value="Phyton" Phython <br>
+<input type="checkbox" name="Skillsets" value="C++" C++ <br>
+<input type="checkbox" name="Skillsets" value="Dotnet" Dotnet <br/>
+<label for="EMail">EMail:</label><br>
+<input type="text" id="EMail" name="EMail"><br><br>
+<label for="about">About Your Self:</label><br>
+<textarea id="about" name="about" rows="4" cols="50"> </textarea><br><br>
+<input type="submit" value="Register"><br><br>
+<input type="reset">
+</form>
+</body>
+</html>
+
+2)
+FIRST.HTML
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0
+Transitional//EN">
+<!-- saved from
+url=(0047)http://www.american.edu/TED/class/practice1.htm -->
+<HTML><HEAD><TITLE>HTML</TITLE>
+<META http-equiv=Content-Type content="text/html;
+charset=windows-1252"><!-- A Remark can go here and it will
+not be interpreted by your HTML editor -->
+<META content="MSHTML 6.00.2900.2769" name=GENERATOR></HEAD>
+<BODY text=#000000 bgColor=#ffffff>
+<CENTER>
+<H1>Assignment 1: Basic HTML Display Features</H1></CENTER>
+<P>A basic page needs only a bare minimum of programming.
+Graphics are an important part of Web pages but so too are
+words. I look upon the Web as a medium for ideas and the use
+of new technologies, but not the other way around.
+A Web page tells a great story with great graphical and
+analytical presentation.
+<P>Using the "View" option look at the source code for this
+document. The background color and the text declared in the
+body refer to a coding system that combines a system of
+numbers and letters to create thousands of possible color
+choices. The body color indicates white and the text as being
+black. I could have just written in "white" and "black"
+instead of these codes.
+<P>Here is an example of a horizontal rule:
+<HR>
+<P>To begin, we can change the <H2>header size</H2>and <FONT
+color=blue>color</FONT> <FONT color=#ff0000>of</FONT> <FONT
+color=#008080>letters</FONT> seen on the screen.
+The <FONT size=+2>font size</FONT>can be changed as well, and
+actually gives more choices.
+<P>We can also change the appearance of words on the screen.
+This shows some
+differing word types in a blocked quote.
+<BLOCKQUOTE><FONT face="Geneva, Arial, Helvetica, sansserif">
+Now is the <EM>time </EM>for all good <STRONG>people</STRONG> to <B>come </B>to the <I>aid</I> of
+their country. </FONT></BLOCKQUOTE>
+<P><FONT face="Times New Roman, Times, serif">That was also
+an example of a nested command. </FONT> </P>
+<a href="iknow.html">Iknow</a>
+</BODY>
+</HTML>
+
+IKNOW.HTML
+
+<html>
+<head>
+<title>iknow</title>
+</head>
+<body>
+<h1>Skillsets</h1>
+<ol type="1">
+<li>Creativity</li>
+<li>Computer Knowledge</li>
+<li>Critical thinking</li>
+<li>Logical thinking</li>
+</ol>
+<h1>Personal strengths</h1>
+<ul type="square">
+<li>Adopt to situations easily</li>
+<li>Smartworker</li>
+<li>Flexible</li>
+<li>Adjustable</li>
+</ul>
+</body>
+</html>
+
+3)
+
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<form>
+<label for="form">Registration Form</label><br><br>
+<label for="name">First Name:</label><br>
+<input type="text" id="name" name="First Name"><br>
+<label for="name">Last Name:</label><br>
+<input type="text" id="name" name="Last Name"><br>
+<label for="addresss">Address:</label><br>
+<textarea id="address" name="Address" rows="4" cols="50"> </textarea><br>  
+<label for="country">Country:</label><br>
+  <select name="country" id="country">
+  <option value="India">India</option>
+  <option value="Algeria">Algeria</option>
+  <option value="Brazil">Brazil</option>
+  <option value="China">China</option>
+  </select><br>
+<label for="Phone">Phone:</label><br>
+<input type="text" id="name" name="Phone"><br>
+<label for="ZipCode">ZipCode:</label><br>
+<input type="text" id="name" name="ZipCode"><br>
+<label for="mode">Gender:</label><br>
+<input type="radio" id="Female" name="Gender" value="Female">
+<label for="Female">Female</label><br>
+<input type="radio" id="Male" name="Gender" value="Male">
+<label for="Male">Male</label><br>
+<input type="radio" id="other" name="gender" value="Other">
+<label for="other">Other</label><br>
+<input type="submit" value="Submit"><br><br>
+<input type="reset">
+</form>
+</body>
+</html>
+
+Homepage.Html
+
+<html>
+<head>
+<title>Home Page</title>
+</head>
+<body>
+<h1>Your data have been uploaded</h1>
+</body>
+</html>
+
+Web.xml
+
+<xml version="1.0" encoding="UTF-8">
+<welcome-file-list>
+<welcome-file>HomePage.html</welcome-file>
+</welcome-file-list>
+</xml>
+
+4)
+<html>
+<head>
+<title>Planets
+</title>
+</head>
+<table border="1" cellpadding ="0" cellspacing="0" width="100"
+<tr>
+<th>Planet name</th>
+<th>Year length</th>
+<th>Day length</th>
+</tr>
+<tr>
+<td>Mercury</td>
+<td>88 days</td>
+<td>59 days</td>
+</tr>
+<tr>
+<td>Venus</th>
+<td>225 days</td>
+<td>243 days</td>
+</tr>
+<tr>
+<td>Earth</td>
+<td>365 days</td>
+<td>24hrs</td>
+</tr>
+<tr>
+<td> Mars</td>
+<td>765 days</td>
+<td>24.6hrs</td>
+</tr>
+</table>
+
+5)
+FormatterTags.Html
+
+<html>
+<head>
+<title>Formattertags</title>
+<body>
+<h1>Pre tag</h1>
+<pre>
+The PRE command uses a preset format from a device used
+to create a file, especially in cases of a word
+processor created document. It is an easy way to
+convert text documents to Web documents. Check your
+code by inserting <PRE> tag in your document.
+</pre>
+<h1>List</h1>
+<ol type="i">
+<li>circle</li>
+<li>square</li>
+<li>moon</li>
+</ol>
+<ul type="*">
+<li>one</li>
+<li>two</li>
+<li>three</li>
+</ul>
+</body>
+</head>
+</html>
+
+6)
+<!DOCTYPE html>
+<html>
+<title>Example1.6</title>
+</head>
+<body>
+<p>My high school life is a wonderful chapter in my memories because I learned dedication, hard work, motivation and 
+self-actualization.</p>
+<hr color="green"></hr>
+<p><b>My high school years were also the period in which I started working hard towards my goals.</b></p> 
+<hr color="green"></hr>
+<p style="background-color:pink" <b>Thanks to that, I am happy with the career </b>and the life I have today.</p>
+<hr color="green"></hr>
+<p style="text-align:center">Thank You...</p>
+</body>
+</html>
+
+7)
+Example1.7.html
+
+<html>
+<head>
+<title>Example1.7</title>
+</head>
+<body>
+<h3><i>Hello! Welcome to this page</i></h3>
+<h3 style="color:pink">A text which is coloured in pink</h3>
+<a href="mailto:xyz15@sample.com? subject=learning html">Mailto  </a>
+<br/><br/>
+<img src="image.jpg" width="300" height="300"/><br/>
+<br/><br/>
+<a href="myimages.html"><img src="lion.jpg"></img></a>
+</body>
+<html>
+
+MyImage.html
+
+<html>
+<head>
+<title>images</title>
+</head>
+<body>
+<img src="lion(1).jpg"/><br/><br/>
+<img src="download.jpg"/>
+</body>
+</html>
+
+8)
+First.html
+<html>
+<head>
+<title>First page</title>
+</head>
+<body>
+<h3>Link to second html page</h3>
+<a href="second.html">Secondhtml</a>
+</body>
+</html>
+
+Second.html
+
+<html>
+<head>
+<title>second page</title>
+</head>
+<body style="background-image:url('img.jpg');background-repeat:no-repeat;background-size: cover">
+<h4>Short description of myself</h4>
+<p>I am Priya...from Kanyakumari</p>
+<br/>
+<br/>
+<h4>List of hobbies</h4>
+<ul type="circle">
+<li>Drawing</li>
+<li>playing chess</li>
+<li>cooking</li>
+<li>gardening</li>
+</ul>
+<a href="https://www.w3schools.com/html/html_intro.asp">
+Learn basic of html</a>
+<hr style="width:300px;height:25px;background-color:red"></hr>
+</body>
+</html>
+
+9)
+Login.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login page</title>
+</head>
+<body>
+<h1>LOGIN</h1>
+<form name="login" method="" action="success.html">
+<table>
+<tr>
+<td>
+Username:</td><td><input type="text" name="uname" value=""></td></tr>
+<tr><td><br/>
+Password:</td><td><br/><input type="text" name="password" value=""></td></tr>
+<tr><td><input type="submit" name="Submit"></td>
+<td><input type="reset" name="Reset"></td></tr>
+
+</table>
+</form>
+<a href="newuserreg.html">New User Registration</a>
+</body>
+</html>
+
+Success.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>success page</title>
+</head>
+<body>
+<h1>SUCCESS</h1>
+<a href="login.html">Go back</a>
+</body>
+</html>
